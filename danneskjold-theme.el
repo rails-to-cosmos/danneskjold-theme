@@ -1,9 +1,9 @@
 ;;; danneskjold-theme.el --- beautiful high-contrast theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (c) 2016-2026 Dmitry Akatov
-;; Author: Dmitry Akatov <akatovda@google.com>
+;; Author: Dmitry Akatov <dmitry.akatov@protonmail.com>
 ;; URL: https://github.com/rails-to-cosmos/danneskjold-theme
-;; Package-Version: 1.0.1
+;; Package-Version: 1.1.0
 
 ;;; Commentary:
 ;; High-contrast minimalistic theme with dark and light variants.
