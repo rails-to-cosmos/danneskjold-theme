@@ -127,7 +127,7 @@
    `(link ((,class (:foreground ,frost :underline t))))
    `(magit-branch-local ((,class (:foreground ,teal))))
    `(minibuffer-prompt ((,class (:foreground ,diredcl))))
-   `(mode-line ((,class (:background ,black :foreground ,comment))))
+   `(mode-line ((,class (:background ,black :foreground ,yellow-bright))))
    `(mode-line-inactive ((,class (:background ,black :foreground ,invisible))))
    `(org-done ((,class (:foreground ,green))))
    `(org-todo ((,class (:foreground ,yellow))))
