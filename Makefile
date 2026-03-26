@@ -24,5 +24,6 @@ patch:
 	@$(MAKE) --no-print-directory _bump NEW=$(NEW)
 
 _bump:
-	sed -i 's/$(VERSION)/$(NEW)/' $(PKG_FILE) $(EL_FILE)
+	sed -i 's/\(Package-Version: \)$(VERSION)/\1$(NEW)/' $(EL_FILE)
+	sed -i 's/\("danneskjold-theme" "\)$(VERSION)/\1$(NEW)/' $(PKG_FILE)
 	@echo "$(VERSION) -> $(NEW)"
