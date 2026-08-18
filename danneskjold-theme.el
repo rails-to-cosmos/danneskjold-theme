@@ -153,6 +153,11 @@
    `(whitespace-space ((,class (:foreground ,surface))))
    `(whitespace-newline ((,class (:foreground ,surface))))
 
+   ;; eglot
+   `(eglot-inlay-hint-face ((,class (:foreground ,yellow :height 0.9 :slant italic))))
+   `(eglot-type-hint-face ((,class (:foreground ,magenta-dark :height 0.9 :slant italic))))
+   `(eglot-parameter-hint-face ((,class (:foreground ,teal :height 0.9 :slant italic))))
+
    ;; vterm
    `(vterm-color-black ((,class (:foreground ,grey-dark :background ,grey-dim))))
    `(vterm-color-red ((,class (:foreground ,red :background ,red-dark))))
